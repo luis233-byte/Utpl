@@ -1,0 +1,514 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --dark: #14171d;
+    --dark-x: #ffffff;
+  }
+  
+  /* Header */
+  
+  header {
+    width: 100%;
+    height: 180px;
+    background: #373b44; /* fallback for old browsers */
+    background: linear-gradient(
+        to right,
+        hsla(204, 75%, 20%, 0.61),
+        hsla(182, 61%, 68%, 0.61)
+      ),
+      url(../img/campus-header.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    position: relative;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    background-color: var(--dark-x);
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .bg-dark {
+    background-color: var(--dark) !important ;
+  }
+  
+  .wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 40px;
+  }
+  
+  /* Alineacion de el Logo */
+  
+  .logo-utpl {
+    padding: 5.6px;
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Alineacion y color del encabeazdo */
+  
+  #header-text h1 {
+    color: seashell;
+    padding: 10px;
+    padding-left: 16%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  
+  #header-text p {
+    color: seashell;
+    padding-left: 16%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  
+  /*  Botones */
+  
+  .conf-btn {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 39.5%;
+  }
+  
+  .conf-btn-1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-right: 70%;
+    width: 20px;
+  }
+  
+  .pri-btn {
+    text-align: center;
+    border-radius: 57px;
+    padding: 10px 0px;
+  
+    font-size: 1.55em;
+  }
+  
+  .sec-btn {
+    text-align: center;
+    border-radius: 57px;
+    padding: 10px 0px;
+    font-size: 1.55em;
+  }
+  
+  .button {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  
+  
+  /* Letreros */
+  
+  .content {
+    display: flex;
+    padding-left: 180px;
+  }
+  
+  .columna-letreros {
+    padding-top: 14%;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  
+  .cont-letreros1 {
+    background: #e2ab14;
+    width: 200px;
+    height: 0px;
+    text-align: center;
+    padding-bottom: 33%;
+    border: 2px solid #14171d;
+    border-radius: 57px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+    font-size: 1.25em;
+  }
+  
+  .cont-letreros2 {
+    background: #e2ab14;
+    width: 200px;
+    height: 0px;
+    text-align: center;
+    padding-bottom: 33%;
+    border: 2px solid #14171d;
+    border-radius: 57px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+    font-size: 1.25em;
+  }
+  
+  .cont-letreros3 {
+    background: #e2ab14;
+    width: 200px;
+    height: 0px;
+    text-align: center;
+    padding-bottom: 33%;
+    border: 2px solid #14171d;
+    border-radius: 57px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+    font-size: 1.25em;
+  }
+  
+  .cont-letreros4 {
+    background: #e2ab14;
+    width: 200px;
+    height: 0px;
+    text-align: center;
+    padding-bottom: 33%;
+    border: 2px solid #14171d;
+    border-radius: 57px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+    font-size: 1.25em;
+  }
+  
+  .let {
+    padding-top: 15px;
+  }
+  
+  /* panel de botones */
+  
+  .panel-botones {
+    display: block;
+    padding: 26px;
+    padding-left: 5%;
+    width: 57.7%;
+    font-size: 2em;
+    border-radius: 10px;
+  }
+  
+  table {
+    padding: 10px;
+    height: 50%;
+    box-shadow: rgb(0, 0, 0);
+  }
+  
+  .pb-1 {
+    background: #e2ab14;
+    width: 140px;
+    text-align: center;
+    border-radius: 57px;
+    border: 2px solid #14171d;
+    padding: 10px 0px;
+    font-size: 1em;
+    box-shadow: rgb(0, 0, 0);
+  }
+  
+  .pb-2 {
+    padding: 20px;
+    background: #e28214;
+    width: 140px;
+    text-align: center;
+    border-radius: 57px;
+    border: 2px solid #14171d;
+    padding: 10px 0px;
+    font-size: 1em;
+  }
+  
+  .pb-3 {
+    padding: 20px;
+    background: #c5fc00;
+    width: 140px;
+    text-align: center;
+    border-radius: 57px;
+    border: 2px solid #14171d;
+    padding: 10px 0px;
+    font-size: 1em;
+  }
+  
+  .pb-4 {
+    padding: 40px;
+    background: #14c3e2;
+    width: 140px;
+    text-align: center;
+    border-radius: 57px;
+    border: 2px solid #14171d;
+    padding: 10px 0px;
+    font-size: 1em;
+  }
+  
+  /* panel de botones ------------ cajas de texto */
+  .caja-txt {
+    text-align: center;
+    background: hsla(73, 54%, 81%, 0.507);
+    width: 200px;
+    height: 50px;
+    border-radius: 57px;
+    border: 2px solid #14171d;
+  }
+  
+  .caja-txt-col {
+    padding-left: 30px;
+  }
+  
+  .btn-sent {
+    background: #05a500;
+    padding-left: 12.4px;
+    padding-top: 11px;
+    display: flex;
+    width: 58px;
+    border-radius: 57px;
+    border: 2px solid #14171d;
+  }
+  
+  .btn {
+    padding: 10px;
+    padding-top: 10px;
+  }
+  
+  /* botones footer */
+  
+  .btns-footer {
+    padding: 2%;
+    padding-left: 27.3%;
+    padding-bottom: 10px;
+  }
+  
+  .btn-fff {
+    display: flex;
+    padding-left: 7%;
+  }
+  
+  .pri-ft {
+    display: flex;
+    text-align: center;
+    background: chartreuse;
+    border: 2px solid #14171d;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .sed-btn {
+    display: flex;
+    text-align: center;
+    background: chartreuse;
+    border: 2px solid #14171d;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .ter-btn {
+    display: flex;
+    text-align: center;
+    background: chartreuse;
+    border: 2px solid #14171d;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 1360px) {
+    header {
+      background-position: center;
+      max-width: 100%;
+    }
+  
+    body {
+      background-color: var(--dark-x);
+      font-family: "Montserrat", sans-serif;
+    }
+  
+    /* Alineacion de el Logo */
+  
+    .logo-utpl img {
+      max-width: 1000px;
+      height: auto;
+    }
+  
+    /* Alineacion y color del encabeazdo */
+  
+    #header-text h1 {
+      color: seashell;
+      padding: 18px;
+      padding-left: 10%;
+      text-align: center;
+      font-size: 30px;
+      font-weight: bolder;
+    }
+  
+    #header-text p {
+      color: seashell;
+      padding-left: 10%;
+      text-align: center;
+      font-size: 15px;
+      font-weight: bolder;
+    }
+  
+    /*  Botones */
+  
+    .conf-btn {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding-left: 32%;
+      padding-top: 20px;
+    }
+  
+    .conf-btn-1 {
+      padding-left: 10%;
+    }
+  
+    /* Letreros */
+  
+    .content {
+      display: flex;
+      padding-left: 180px;
+    }
+  
+    .columna-letreros {
+      padding-top: 27%;
+      text-align: center;
+    }
+  
+    .cont-letreros1 {
+      padding-bottom: 40px;
+      background: #e2ab14;
+      width: 100px;
+      border: 1px solid #14171d;
+      font-size: 0.8em;
+    }
+  
+    .cont-letreros2 {
+      padding-bottom: 40px;
+      background: #e2ab14;
+      width: 100px;
+      border: 1px solid #14171d;
+      font-size: 0.8em;
+    }
+  
+    .cont-letreros3 {
+      padding-bottom: 40px;
+      background: #e2ab14;
+      width: 100px;
+      border: 1px solid #14171d;
+      font-size: 0.8em;
+    }
+  
+    .cont-letreros4 {
+      padding-bottom: 40px;
+      background: #e2ab14;
+      width: 100px;
+      border: 1px solid #14171d;
+      font-size: 0.8em;
+    }
+  
+    .let {
+      padding-top: 34.6px;
+    }
+  
+    /* panel de botones */
+  
+    .panel-botones {
+      display: block;
+      padding: 26px;
+      padding-left: 5px;
+      width: 30px;
+      border-radius: 10px;
+    }
+  
+    table {
+      padding: 20px;
+      height: 50%;
+      box-shadow: rgb(0, 0, 0);
+    }
+  
+    .pb-1 {
+      width: 125px;
+      border: 1px solid #14171d;
+      font-size: 0.5em;
+    }
+  
+    .pb-2 {
+      width: 125px;
+      border: 1px solid #14171d;
+      font-size: 0.5em;
+    }
+  
+    .pb-3 {
+      width: 125px;
+      border: 1px solid #14171d;
+      font-size: 0.5em;
+    }
+  
+    .pb-4 {
+      width: 125px;
+      border: 1px solid #14171d;
+      font-size: 0.5em;
+    }
+  
+    /* panel de botones ------------ cajas de texto */
+    .caja-txt {
+      text-align: center;
+      background: hsla(73, 54%, 81%, 0.507);
+      width: 150px;
+      height: 42px;
+    }
+  
+    .caja-txt-col {
+      padding-left: 20px;
+    }
+  
+    .btn-sent {
+      background: #05a500;
+      padding-left: 12.4px;
+      padding-top: 11px;
+      border: 1px solid #14171d;
+    }
+  
+    .btn {
+      padding-left: 10px;
+      padding-top: 12px;
+    }
+  
+    /* botones footer */
+    .btns-footer {
+      padding-left: 24.8%;
+      
+    }
+  
+    .btn-fff {
+      display: flex;
+      padding-left: 25px;
+    }
+  
+    .imagaes img {
+      max-width: 3px;
+      height: auto;
+    }
+  
+    .pri-ft img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .sed-btn img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .ter-btn img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
