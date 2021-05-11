@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UTPL Control de Parqueadero</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    
+  </head>
+  <body>
+    <header>
+      <section class="logo-utpl">
+        <img src="img/logo-utpl-color-2.png" alt="" />
+      </section>
+      <section id="header-container">
+        <div class="header-bacground">
+          <div id="header-text">
+            <h1>UNIVERSIDAD TECNICA PARTICULAR DE LOJA</h1>
+            <p>CONTROL MANUAL -- PARQUEADERO -- CALLE MARCELINO CHAMPAGNAT</p>
+          </div>
+        </div>
+      </section>
+      <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-5.07,88.31 C194.13,172.20 420.43,69.56 501.69,106.08 L500.00,150.00 L-26.52,165.28 Z" style="stroke: none; fill: rgb(255, 255, 255);"></path></svg></div>
+    </header>
+    <main>
+      <div class="conf-btn">
+        <div class="pri-btn">
+          <span>
+            <a href="#" class="button" onClick="btn_on()">
+              <img src="img/btn-ON.png" alt="" />
+            </a>
+          </span>
+        </div>
+        <div class="conf-btn-1">
+          <div class="sec-btn">
+            <span>
+              <a href="#" class="button" onClick="btn_off()">
+                <img src="img/btn-OFF.png" alt="" />
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <!-- Seccion de contenido -->
+
+      <section class="content">
+        <!-- Sección de los Letreros -->
+        <section class="letreros">
+          <div class="columna-letreros">
+            <section class="let">
+              <div class="cont-letreros1">
+               
+                <div class="hover-galeria">
+                    <img src="img/click.png" alt="">
+                    <p>LETRERO 2</p>
+                </div>
+            </div>
+            </section>
+            <section class="let">
+              <div class="cont-letreros2">
+               
+                <div class="hover-galeria">
+                    <img src="img/click.png" alt="">
+                    <p>LETRERO 2</p>
+                </div>
+            </div>
+            </section>
+            
+            <section class="let">
+              <div class="cont-letreros3">
+               
+                <div class="hover-galeria">
+                    <img src="img/click.png" alt="">
+                    <p>LETRERO 3</p>
+                </div>
+            </div>
+            </section>
+            <section class="let">
+              <div class="cont-letreros4">
+                
+                <div class="hover-galeria">
+                    <img src="img/click.png" alt="">
+                    <p>LETRERO 4</p>
+                </div>
+            </div>
+            </section>
+
+         
+        </section>
+        <!-- Seccion panel de botones y mensajes-->
+        <section class="panel-botones">
+          <table>
+            <tr>
+              <td>
+                <div class="pb-1">
+                  <a href="#" class="button" onclick="btn_off()">Off-1</a>
+                </div>
+              </td>
+              <td>
+                <div class="pb-1">
+                  <a href="#" class="button" onclick="btn_msgn1()">msgn-1</a>
+                </div>
+              </td>
+              <td>
+                <div class="pb-1">
+                  <a href="#" class="button" onclick="btn_msgn11()">msgn-1</a>
+                </div>
+              </td>
+              <td>
+                <div class="pb-1">
+                  <a href="#" class="button" onclick="btn_msgn111()">msgn-1</a>
+                </div>
+              </td>
+              <td>
+                <div class="caja-txt-col">
+                  <input
+                    type="text"
+                    class="caja-txt"
+                    maxlength="12"
+                    placeholder="mensaje personalizado"
+                  />
+                </div>
+              </td>
+              <td class="btn">
+                <div class="btn-sent">
+                  <a href="#" class="button" onclick="sent_1()">
+                    <span>
+                      <img src="img/email.png" class="sent-res" alt="" />
+                    </span>
+                  </a>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="pb-2">
+                  <a href="#" class="button" onclick="btn_off1()">Off-2</a>
+                </div>
+              </td>
+              <td>
+                <div class="pb-2">
+                  <a href="#" class="button" onclick="btn_msgn2()">msgn-2</a>
+                </div>
+              </td>
+              <td>
+                <div class="pb-2">
+                  <a href="#" class="button" onclick="btn_msgn22()" >msgn-2</a>
+                </div>
+              </td>
+              <td>
+                <div class="pb-2">
+                  <a href="#" class="button" onclick="btn_msgn222()">msgn-2</a>
+                </div>
+              </td>
+              <td>
+                <div class="caja-txt-col">
+                  <input
+                    type="text"
+                    class="caja-txt"
+                    maxlength="12"
+                    placeholder="mensaje personalizado"
+                  />
+                </div>
+              </td>
+              <td class="btn">
+                <div class="btn-sent">
+                  <a href="#" class="button" onclick="sent_2()">
+                    <span>
+                      <img src="img/email.png" alt="" />
+                    </span>
+                  </a>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="pb-3">
+                  <a href="#" class="button" onclick="btn_off2()">Off-3</a>
+                </div>
+              </td>
+              <td>
+                <div class="pb-3">
+                  <a href="#" class="button" onclick="btn_msgn3()">msgn-3</a>
+                </div>
+              </td>
+              <td>
+                <div class="pb-3">
+                  <a href="#" class="button" onclick="btn_msgn33()">msgn-3</a>
+                </div>
+              </td>
+              <td>
+                <div class="pb-3">
+                  <a href="#" class="button" onclick="btn_msgn333()">msgn-3</a>
+                </div>
+              </td>
+              <td>
+                <div class="caja-txt-col">
+                  <input
+                    type="text"
+                    class="caja-txt"
+                    maxlength="12"
+                    placeholder="mensaje personalizado"
+                  />
+                </div>
+              </td>
+              <td class="btn">
+                <div class="btn-sent" onclick="sent_3()">
+                  <a href="#" class="button">
+                    <span>
+                      <img src="img/email.png" alt="" />
+                    </span>
+                  </a>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="pb-4">
+                  <a href="#" class="button" onclick="btn_off3()">Off-4</a>
+                </div>
+              </td>
+              <td>
+                <div class="pb-4">
+                  <a href="#" class="button" onclick="btn_msgn4()">msgn-4</a>
+                </div>
+              </td>
+              <td>
+                <div class="pb-4">
+                  <a href="#" class="button"onclick="btn_msgn44()">msgn-4</a>
+                </div>
+              </td>
+              <td>
+                <div class="pb-4">
+                  <a href="#" class="button" onclick="btn_msgn444()">msgn-4</a>
+                </div>
+              </td>
+              <td>
+                <div class="caja-txt-col">
+                  <input
+                    type="text"
+                    class="caja-txt"
+                    maxlength="12"
+                    placeholder="mensaje personalizado"
+
+                  />
+                </div>
+              </td>
+              <td class="btn">
+                <div class="btn-sent" onclick="sent_4()">
+                  <a href="#" class="button">
+                    <span>
+                      <img src="img/email.png" alt="" />
+                    </span>
+                  </a>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </section>
+      </section>
+
+      
+
+      <section class="btns-footer">
+        <div class="btn-fff">
+          <section class="pri-ft">
+            <span>
+              <a href="#" class="button" onClick="btn_on()">
+                <img src="img/iniciar-sesion (1).png" alt="" />
+                <p>
+                  Abrir Entrada 
+                </p>
+               
+              </a>
+            </span>
+          </section>
+          <div class="btn-fff">
+            <div class="sed-btn">
+              <span>
+                <a href="#" class="button" onClick="btn_off()">
+                  <img src="img/boton-salir-a-la-aplicacion.png" alt="" />
+                  <p>
+                    Abrir Salida 1 
+                  </p>
+                </a>
+              </span>
+            </div>
+          </div>
+          <div class="btn-fff">
+            <div class="ter-btn">
+              <span>
+                <a href="#" class="button" onClick="btn_off()">
+                  <img src="img/boton-salir-a-la-aplicacion.png" alt="" />
+                  <p>
+                    Abrir Salida 2 
+                  </p>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>  
+    <script src="js/sweetAlert.js"></script>
+  </body>
+</html>
